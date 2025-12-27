@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+dev-dist
+spec.md
+*.local
+count.txt
+.env
+.nitro
+.tanstack
+.wrangler
