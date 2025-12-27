@@ -9,7 +9,7 @@ export default function ProgressSummary() {
 
   const total = habits?.length || 0
   const completed = habits?.filter((habit) => habit.completedToday).length || 0
-  const percentage = Number(((completed / total) * 100).toFixed(2))
+  const percentage = Number(((completed / total) * 100).toFixed(2)) || 0
 
   if (habits === undefined) {
     return <ProgressSummarySkeleton />
